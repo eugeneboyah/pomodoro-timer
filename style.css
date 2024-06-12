@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+.container{
+    background-color: #1e213f;
+    margin: 10em ;
+    color: #fff;
+}
+.main{
+
+    width: fit-content;
+    margin: 0 auto;
+}
+.header img{
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 9rem;
+}
+.header h1{
+    text-align: center;
+    font-size: 40px;
+}
+.promodoro-action-btn button{
+    margin-top: 1.5rem;
+    background-color: #2d325a;
+    color: #f2f2f2;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size:20px;
+    
+}
+.promodoro-action-btn{
+    display: flex;
+    gap: 15px;
+}
+
+.timer{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+.main-action-btn button{
+    margin-top: 1.5rem;
+    background-color: #2d325a;
+    color: #f2f2f2;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size:20px;
+}
+.main-action-btn{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
