@@ -69,19 +69,16 @@ button{
     margin-left: 30px;
     padding-bottom: 50px;
 }
-.copyright{
-    text-align: center;
-    margin-bottom: 15px;
-}
 @media (max-width: 800px) {
  
     .container{
         background-color: #2d325a;
-        width: 100%;
+        width: 90.5%;
         height: 55em;
         margin: 1em auto;
     }
     .main{
+
         width: fit-content;
         margin: 0 auto;
     }
@@ -138,6 +135,88 @@ button{
         gap: 30px;
         align-items: center;
         margin-left: 60px;
+         padding-bottom: 50px; 
+    }
+    .copyright{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .copyright span{
+       background-image: linear-gradient(to right, pink, purple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+} 
+
+@media (max-width: 500px) {
+ 
+    .container{
+        background-color: #2d325a;
+        width: 300px;
+        height: 35em;
+        margin: 1em auto;
+    }
+    .main{
+
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .header img{
+        margin-top: 30px;
+        width: 50px;
+        margin-left: 8rem;
+    }
+    .header h1{
+        background-image: linear-gradient(to right, pink, purple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-size: 30px;
+    }
+    .header .h1{
+        margin-top: 1em;
+    }
+    .promodoro-action-btn button{
+        margin-top: 1.5rem;
+        background-color: #535baa;
+        color: #f2f2f2;
+        padding: 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size:15px;
+        
+    }
+    .promodoro-action-btn{
+        display: flex;
+        gap: 10px;
+        margin-top: 1em;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .timer{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+        color: black;
+    }
+    .main-action-btn button{
+        margin-top: 1rem;
+        background-color: #535baa;
+        color: #f2f2f2;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size:15px;
+    }
+    .main-action-btn{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        margin-left: 30px;
         /* padding-bottom: 50px; */
     }
     .copyright{
@@ -145,7 +224,7 @@ button{
         margin-bottom: 15px;
     }
     .copyright span{
-        background-image: linear-gradient(to right, pink, purple);
+       background-image: linear-gradient(to right, pink, purple);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
